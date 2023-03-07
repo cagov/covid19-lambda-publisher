@@ -1,0 +1,19 @@
+{
+  "name": "covid19-lambda-publisher",
+  "version": "0.0.0",
+  "description": "A fresh new Architect project!",
+  "scripts": {
+    "start": "npx sandbox"
+  },
+  "devDependencies": {
+    "@architect/architect": "^10.10.2"
+  },
+  "dependencies": {
+    "fetch-retry": "^4.1.1",
+    "github-api": "^3.4.0",
+    "node-fetch": "^2.6.7",
+    "jsdom": "^16.5.0",
+    "sha1": "^1.1.1"
+
+  }
+}
