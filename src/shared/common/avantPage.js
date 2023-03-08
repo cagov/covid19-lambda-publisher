@@ -1,6 +1,7 @@
 const testPostMode = false;
 
-const fetch = require('node-fetch');
+// const fetch = require('node-fetch');
+const fetch = require('fetch-retry')(require('node-fetch'), {retries:3,retryDelay:2000});
 
 const tag_translatepriority = 'translate-priority';
 const translationUpdateEndpointUrl = 'https://workflow.avant.tools/subscribers/xtm';

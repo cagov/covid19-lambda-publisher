@@ -1,4 +1,6 @@
-const fetch = require('node-fetch');
+// const fetch = require('node-fetch');
+const fetch = require('fetch-retry')(require('node-fetch'), {retries:3,retryDelay:2000});
+
 //Common Fetch functions
 module.exports = {
   fetchJSON: async (URL, options, fetchoutput) =>
