@@ -1,5 +1,8 @@
 # COVID-19 Lambda Publisher
 
+## NOTE: As of 5-28-2024 This project is not actively maintained by ODI and this repo is being converted to Archive (read-only) status.
+
+
 This was set up using [Architect](https://arc.codes/docs/en/get-started/quickstart), an open-source tool that simplifies setting up and maintaining Lambda apps on AWS.
 
 You will need an AWS account with reasonably full ODI access to maintain it.  Specify it in your ~/.aws/config file using the [ODI] section.  This section label is referenced in the app.arc file.
